@@ -309,9 +309,11 @@ struct Stu
   char name[20];
   int age;
 };
+//----------核心代码------------------------
 void Swap(char* buf1,char* buf2,int width)
 {
   int i = 0;
+  //将两个数的字节的每个部分进行交换
   for (i = 0; i <width ; i++)
   {
     char tmp = *buf1;
@@ -347,11 +349,14 @@ int cmp_int(const void* e1,const void* e2)
 {
   return (*(int*)e1 - *(int*)e2);
 }
+//----------核心代码------------------------
+
 //按名字来排序
 int cmp_stu_by_name(const void*e1, const void* e2)
 {
   return strcmp(((struct Stu*)e1)->name,((struct Stu*)e2)->name);
 }
+
 void test()
 {
   int arr[] = {9,8,7,6,5,4,3,2,1,0};
@@ -363,6 +368,7 @@ void test()
     printf("%d ",arr[i]);
   }
 }
+
 void test1()
 {
   struct Stu s[3] = {{"zhangsan",15},{"lisi",30},{"wangwu",25}};
