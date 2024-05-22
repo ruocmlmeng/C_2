@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -86,6 +88,13 @@
 					"id" : "test5::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-test5-Debug-29b5b762aa7f20e8b5fd.json",
 					"name" : "test5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test6-Debug-4136e10c018c421d338d.json",
+					"name" : "test6",
 					"projectIndex" : 0
 				}
 			]

@@ -134,7 +134,7 @@
 //   return 0;
 // }
 
-//模拟实现strstr函数
+//模拟实现strstr函数---查找字符串里面的字串
 // char* my_strstr(const char* str1,const char* str2)
 // {
 //   assert(str1 && str2);
