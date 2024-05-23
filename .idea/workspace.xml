@@ -28,27 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b55090-b4bf-430b-adab-551b959faf3e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/test_5_23.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-99633c3ea15bf7783bd1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-22T02-35-54-0179.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test1-Debug-9091892253dd9d0b95dc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test2-Debug-bc559a71f803d59075b0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test3-Debug-1a88eac672f1913fe335.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test4-Debug-806aa82dd9350cf6a508.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test5-Debug-29b5b762aa7f20e8b5fd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test6-Debug-4136e10c018c421d338d.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test6.dir/test_5_22.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test6.dir/test_5_22.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test6.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_5_22.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_5_22.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_5_23.c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_5_23.c.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_5_23.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_5_23.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +176,7 @@
       <workItem from="1716086204511" duration="15430000" />
       <workItem from="1716168569546" duration="37906000" />
       <workItem from="1716345218679" duration="6363000" />
-      <workItem from="1716430620114" duration="5523000" />
+      <workItem from="1716430620114" duration="8485000" />
     </task>
     <servers />
   </component>
