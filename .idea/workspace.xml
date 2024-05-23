@@ -15,6 +15,7 @@
       <config projectName="Test4" targetName="test3" />
       <config projectName="Test4" targetName="test1" />
       <config projectName="Test4" targetName="Test4" />
+      <config projectName="Test4" targetName="test_5_23.c" />
       <config projectName="Test4" targetName="test6" />
       <config projectName="Test4" targetName="test4" />
       <config projectName="Test4" targetName="test5" />
@@ -27,20 +28,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75b55090-b4bf-430b-adab-551b959faf3e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/test_5_22.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_5_23.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4871e136b314692041b4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-21T00-59-57-0388.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-99633c3ea15bf7783bd1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-22T02-35-54-0179.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test1-Debug-9091892253dd9d0b95dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test2-Debug-bc559a71f803d59075b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test3-Debug-1a88eac672f1913fe335.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test4-Debug-806aa82dd9350cf6a508.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test5-Debug-29b5b762aa7f20e8b5fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test6-Debug-4136e10c018c421d338d.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test6.dir/test_5_22.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test6.dir/test_5_22.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test5.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test5.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_5_21.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_5_21.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_5_22.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_5_22.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +101,7 @@
     "CMake 应用程序.test4.executor": "Run",
     "CMake 应用程序.test5.executor": "Run",
     "CMake 应用程序.test6.executor": "Run",
+    "CMake 应用程序.test_5_23.c.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -110,13 +119,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake 应用程序.test6">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake 应用程序.test_5_23.c">
+    <configuration name="Test4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Test4" TARGET_NAME="Test4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Test4" RUN_TARGET_NAME="Test4">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Test4" TARGET_NAME="Test4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Test4" RUN_TARGET_NAME="Test4">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -151,6 +160,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_5_23.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Test4" TARGET_NAME="test_5_23.c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Test4" RUN_TARGET_NAME="test_5_23.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake 应用程序.test1" />
       <item itemvalue="CMake 应用程序.test2" />
@@ -159,6 +173,7 @@
       <item itemvalue="CMake 应用程序.Test4" />
       <item itemvalue="CMake 应用程序.test5" />
       <item itemvalue="CMake 应用程序.test6" />
+      <item itemvalue="CMake 应用程序.test_5_23.c" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -176,7 +191,8 @@
       <workItem from="1716044877157" duration="707000" />
       <workItem from="1716086204511" duration="15430000" />
       <workItem from="1716168569546" duration="37906000" />
-      <workItem from="1716345218679" duration="3758000" />
+      <workItem from="1716345218679" duration="6363000" />
+      <workItem from="1716430620114" duration="5523000" />
     </task>
     <servers />
   </component>
