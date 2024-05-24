@@ -24,6 +24,9 @@ void left_span(char arr[],int k)
 {
   int i = 0;
   int len = my_strlen(arr);
+  //如果旋转的次数大于或等于就不用旋转 直接终止寒素
+  if(k >= len)
+    return ;
   for (i = 0; i < k; i++)
   {
     char tmp = arr[0];
