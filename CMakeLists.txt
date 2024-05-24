@@ -14,3 +14,4 @@ add_executable(test6 test_5_22.c)
 add_executable(
         test_5_23.c
         test_5_23.c)
+add_executable(test7 test_5_24.c)

@@ -310,6 +310,39 @@ build test_5_23.c.exe: C_EXECUTABLE_LINKER__test_5_23.2ec_Debug CMakeFiles/test_
   TARGET_IMPLIB = libtest_5_23.c.dll.a
   TARGET_PDB = test_5_23.c.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test7
+
+
+#############################################
+# Order-only phony target for test7
+
+build cmake_object_order_depends_target_test7: phony || CMakeFiles/test7.dir
+
+build CMakeFiles/test7.dir/test_5_24.c.obj: C_COMPILER__test7_unscanned_Debug E$:/Programs/CLion/Test4/test_5_24.c || cmake_object_order_depends_target_test7
+  DEP_FILE = CMakeFiles\test7.dir\test_5_24.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test7.dir
+  OBJECT_FILE_DIR = CMakeFiles\test7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test7
+
+
+#############################################
+# Link the executable test7.exe
+
+build test7.exe: C_EXECUTABLE_LINKER__test7_Debug CMakeFiles/test7.dir/test_5_24.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test7.exe
+  TARGET_IMPLIB = libtest7.dll.a
+  TARGET_PDB = test7.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -350,6 +383,8 @@ build test5: phony test5.exe
 
 build test6: phony test6.exe
 
+build test7: phony test7.exe
+
 build test_5_23.c: phony test_5_23.c.exe
 
 # =============================================================================
@@ -360,7 +395,7 @@ build test_5_23.c: phony test_5_23.c.exe
 #############################################
 # Folder: E:/Programs/CLion/Test4/cmake-build-debug
 
-build all: phony Test4.exe test1.exe test2.exe test3.exe test4.exe test5.exe test6.exe test_5_23.c.exe
+build all: phony Test4.exe test1.exe test2.exe test3.exe test4.exe test5.exe test6.exe test_5_23.c.exe test7.exe
 
 # =============================================================================
 # Built-in targets
