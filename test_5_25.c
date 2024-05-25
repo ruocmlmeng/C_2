@@ -9,8 +9,8 @@
   */
 
 #include<stdio.h>
-//æ¨æ°çŸ©é˜µ
-//è¿™ä¸ªå‡½æ•°åªèƒ½åˆ¤æ–­è¿™ä¸ªæ•°æœ‰æ²¡æœ‰ï¼Œè€Œä¸èƒ½è¿”å›ä¸‹æ ‡
+//ÑîÊÏ¾ØÕó
+//Õâ¸öº¯ÊıÖ»ÄÜÅĞ¶ÏÕâ¸öÊıÓĞÃ»ÓĞ£¬¶ø²»ÄÜ·µ»ØÏÂ±ê
 // int find_num(int arr[3][3],int r,int c,int k)
 // {
 //   int x = 0;
@@ -32,18 +32,42 @@
 //   }
 //   return 0;
 // }
-//ä¾èµ–ç»“æ„ä½“è¿”å›å‡ºè¦æ‰¾æ•°æ®çš„åæ ‡
-struct point
-{
-  int x;
-  int y;
-};
-struct point find_num(int arr[3][3],int r,int c,int k)
+//ÒÀÀµ½á¹¹Ìå·µ»Ø³öÒªÕÒÊı¾İµÄ×ø±ê
+// struct point
+// {
+//   int x;
+//   int y;
+// };
+// struct point find_num(int arr[3][3],int r,int c,int k)
+// {
+//   int x = 0;
+//   int y = c - 1;
+//   struct point p = {-1,-1};
+//   while (x<=r - 1 && y>=0)
+//   {
+//     if(k < arr[x][y])
+//     {
+//       y--;
+//     }
+//     else if(k > arr[x][y])
+//     {
+//       x++;
+//     }
+//     else
+//     {
+//       p.x = x;
+//       p.y = y;
+//       return p;
+//     }
+//   }
+//   return p;
+// }
+//ÀûÓÃÖ¸ÕëµÄ·½Ê½¸Ä±ä×ø±êµÄÄÚÈİ
+int find_num(int arr[3][3],int* px,int* py,int k)
 {
   int x = 0;
-  int y = c - 1;
-  struct point p = {-1,-1};
-  while (x<=r - 1 && y>=0)
+  int y = *py - 1;
+  while (x<=*px - 1 && y>=0)
   {
     if(k < arr[x][y])
     {
@@ -55,19 +79,26 @@ struct point find_num(int arr[3][3],int r,int c,int k)
     }
     else
     {
-      p.x = x;
-      p.y = y;
-      return p;
+      *px = x;
+      *py = y;
+      return 1;
     }
   }
-  return p;
+  *px = -1;
+  *py = -1;
+  return 0;
 }
 int main()
 {
   int arr[3][3] = {1,2,3,4,5,6,7,8,9};
   int k = 0;
   scanf("%d",&k);
-  struct point ret = find_num(arr,3,3,k);
-  printf("%d %d\n",ret.x,ret.y);
+  int x = 3;
+  int y = 3;
+  int ret = find_num(arr,&x,&y,k);
+  if(ret==1)
+  printf("%d %d\n",x,y);
+  else
+    printf("ÕÒ²»µ½\n");
   return 0;
 }
