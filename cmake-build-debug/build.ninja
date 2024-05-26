@@ -100,6 +100,12 @@ build CMakeFiles/test1.dir/test_5_25.c.obj: C_COMPILER__test1_unscanned_Debug E$
   OBJECT_DIR = CMakeFiles\test1.dir
   OBJECT_FILE_DIR = CMakeFiles\test1.dir
 
+build CMakeFiles/test1.dir/test_5_26.c.obj: C_COMPILER__test1_unscanned_Debug E$:/Programs/CLion/Test4/test_5_26.c || cmake_object_order_depends_target_test1
+  DEP_FILE = CMakeFiles\test1.dir\test_5_26.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test1.dir
+  OBJECT_FILE_DIR = CMakeFiles\test1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test1
@@ -108,7 +114,7 @@ build CMakeFiles/test1.dir/test_5_25.c.obj: C_COMPILER__test1_unscanned_Debug E$
 #############################################
 # Link the executable test1.exe
 
-build test1.exe: C_EXECUTABLE_LINKER__test1_Debug CMakeFiles/test1.dir/test_5_16.c.obj CMakeFiles/test1.dir/test_5_23.c.obj CMakeFiles/test1.dir/test_5_25.c.obj
+build test1.exe: C_EXECUTABLE_LINKER__test1_Debug CMakeFiles/test1.dir/test_5_16.c.obj CMakeFiles/test1.dir/test_5_23.c.obj CMakeFiles/test1.dir/test_5_25.c.obj CMakeFiles/test1.dir/test_5_26.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\test1.dir
@@ -382,6 +388,39 @@ build test8.exe: C_EXECUTABLE_LINKER__test8_Debug CMakeFiles/test8.dir/test_5_25
   TARGET_IMPLIB = libtest8.dll.a
   TARGET_PDB = test8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test9
+
+
+#############################################
+# Order-only phony target for test9
+
+build cmake_object_order_depends_target_test9: phony || CMakeFiles/test9.dir
+
+build CMakeFiles/test9.dir/test_5_26.c.obj: C_COMPILER__test9_unscanned_Debug E$:/Programs/CLion/Test4/test_5_26.c || cmake_object_order_depends_target_test9
+  DEP_FILE = CMakeFiles\test9.dir\test_5_26.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test9.dir
+  OBJECT_FILE_DIR = CMakeFiles\test9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test9
+
+
+#############################################
+# Link the executable test9.exe
+
+build test9.exe: C_EXECUTABLE_LINKER__test9_Debug CMakeFiles/test9.dir/test_5_26.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test9.exe
+  TARGET_IMPLIB = libtest9.dll.a
+  TARGET_PDB = test9.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -426,6 +465,8 @@ build test7: phony test7.exe
 
 build test8: phony test8.exe
 
+build test9: phony test9.exe
+
 build test_5_23.c: phony test_5_23.c.exe
 
 # =============================================================================
@@ -436,7 +477,7 @@ build test_5_23.c: phony test_5_23.c.exe
 #############################################
 # Folder: E:/Programs/CLion/Test4/cmake-build-debug
 
-build all: phony Test4.exe test1.exe test2.exe test3.exe test4.exe test5.exe test6.exe test_5_23.c.exe test7.exe test8.exe
+build all: phony Test4.exe test1.exe test2.exe test3.exe test4.exe test5.exe test6.exe test_5_23.c.exe test7.exe test8.exe test9.exe
 
 # =============================================================================
 # Built-in targets
