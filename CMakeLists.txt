@@ -7,7 +7,8 @@ add_executable(Test4 test_5_15.c)
 add_executable(test1 test_5_16.c
         test_5_23.c
         test_5_25.c
-        test_5_26.c)
+        test_5_26.c
+        tets_6_4.c)
 add_executable(test2 test_5_18.c)
 add_executable(test3 test_5_19.c)
 add_executable(test4 test_5_20.c)
@@ -19,3 +20,4 @@ add_executable(
 add_executable(test7 test_5_24.c)
 add_executable(test8 test_5_25.c)
 add_executable(test9 test_5_26.c)
+add_executable(test10 tets_6_4.c)

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test1.exe"
+			"path" : "test4.exe"
 		},
 		{
-			"path" : "test1.pdb"
+			"path" : "test4.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -52,14 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
-	"id" : "test1::@6890427a1f51a3e7e1df",
+	"id" : "test4::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "test1",
-	"nameOnDisk" : "test1.exe",
+	"name" : "test4",
+	"nameOnDisk" : "test4.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,10 +89,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
@@ -104,25 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test_5_16.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "test_5_23.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "test_5_25.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "test_5_26.c",
+			"path" : "test_5_20.c",
 			"sourceGroupIndex" : 0
 		}
 	],
