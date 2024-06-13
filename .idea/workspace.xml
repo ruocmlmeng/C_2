@@ -31,7 +31,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75b55090-b4bf-430b-adab-551b959faf3e" name="更改" comment="" />
+    <list default="true" id="75b55090-b4bf-430b-adab-551b959faf3e" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,8 +168,8 @@
     </configuration>
     <list>
       <item itemvalue="CMake 应用程序.Test4" />
-      <item itemvalue="CMake 应用程序.test1" />
       <item itemvalue="CMake 应用程序.test10" />
+      <item itemvalue="CMake 应用程序.test1" />
       <item itemvalue="CMake 应用程序.test2" />
       <item itemvalue="CMake 应用程序.test3" />
       <item itemvalue="CMake 应用程序.test4" />
@@ -211,7 +213,8 @@
       <workItem from="1717939906218" duration="219000" />
       <workItem from="1718031955759" duration="79000" />
       <workItem from="1718117739479" duration="96000" />
-      <workItem from="1718201377918" duration="3000" />
+      <workItem from="1718201377918" duration="86000" />
+      <workItem from="1718281678648" duration="5000" />
     </task>
     <servers />
   </component>
