@@ -177,6 +177,17 @@
 // }
 
 //7.该题要画图解出来,看指针在内存中的指向-----很好的一道题
+// int main()
+// {
+//   char* c[] = {"ENTER","NEW","POINT","FIRST"};
+//   char** cp[] = {c + 3,c + 2,c + 1,c};
+//   char*** cpp = cp;
+//   printf("%s\n",**++cpp);
+//   printf("%s\n",*-- * ++cpp +3);
+//   printf("%s\n",*cpp[-2] + 3);
+//   printf("%s\n",cpp[-1][-1] + 1);
+//   return 0;
+// }
 int main()
 {
   char* c[] = {"ENTER","NEW","POINT","FIRST"};
