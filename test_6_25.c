@@ -39,6 +39,30 @@
 //   printf("%u\n",a);
 //   return 0;
 // }
+// int main()
+// {
+//   printf("%d\n", -1);
+//   printf("%u\n", -1);
+//
+//   printf("%d\n", (char)-1);
+//   printf("%u\n", (char)-1);
+//
+//   printf("%d\n",(unsigned char)-1);
+//   printf("%u\n", (unsigned char)-1);
+//
+//   printf("%d\n", -1u);
+//   printf("%u\n", -1u);
+//
+//   printf("%d\n", 255);
+//   printf("%u\n", 255);
+//
+//   printf("%d\n", (char)255);
+//   printf("%u\n", (char)255);
+//
+//   printf("%d\n", (unsigned char)255);
+//   printf("%u\n", (unsigned char)255);
+//   return 0;
+// }
 int main()
 {
   printf("%d\n", -1);

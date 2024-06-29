@@ -33,10 +33,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75b55090-b4bf-430b-adab-551b959faf3e" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test10.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test10.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_6_25.c" beforeDir="false" afterPath="$PROJECT_DIR$/test_6_25.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +107,6 @@
   }
 }</component>
   <component name="RunManager" selected="CMake 应用程序.test10">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Test4" TARGET_NAME="Test4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Test4" RUN_TARGET_NAME="Test4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -229,7 +220,9 @@
       <workItem from="1718545530234" duration="97000" />
       <workItem from="1718628325064" duration="10171000" />
       <workItem from="1718941993826" duration="4000" />
-      <workItem from="1719307080325" duration="8563000" />
+      <workItem from="1719307080325" duration="9236000" />
+      <workItem from="1719643381382" duration="4000" />
+      <workItem from="1719667681042" duration="4000" />
     </task>
     <servers />
   </component>
