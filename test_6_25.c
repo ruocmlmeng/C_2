@@ -87,36 +87,77 @@
 //   printf("%u\n", (unsigned char)255);
 //   return 0;
 // }
-#include<stdio.h>
+// /**
+//     从键盘输入一个整数值,输出这个正数值是几位数,并且将其进行倒序输出.
+//         输入:12345
+//         输出:5 54321
+// **/
+// #include<stdio.h>
+// /**
+// 	冒泡排序
+// **/
+// int main()
+// {
+// 	int arr[10] = {9,8,7,6,5,4,3,2,1,0};
+// 	int i = 0;
+// 	int len = sizeof(arr) / sizeof(arr[0]);
+// 	for(i = 0; i < len - 1; i++ )
+// 	{
+// 		int j = 0;
+// 		for(j = 0; j < len - 1 - i; j++ )
+// 		{
+// 			if(arr[j+1] < arr[j])
+// 			{
+// 				int temp = arr[j+1];
+// 				arr[j+1] = arr[j];
+// 				arr[j] = temp;
+// 			}
+// 		}
+// 	}
+// 	for(i = 0; i < len ; i++)
+// 	{
+// 		printf("%d ",arr[i]);
+// 	}
+// 	return 0;
+// }
+
 /**
-    从键盘输入一个整数值,输出这个正数值是几位数,并且将其进行倒序输出.
-        输入:12345
-        输出:5 54321
+  冒泡排序
 **/
 int main()
 {
-  int num = 0;
-  int count = 0;
-  int sum = 0;
-  int temp = 0;
-  printf("请输入一个正整数：\n");
-  scanf("%d",&num);
-  int temp2 = num;
-  while(num)
-  {
-    num = num / 10;
-    count++;
-  }
-  printf("%d\n",count);
+  int arr[10] = {9,8,7,6,5,4,3,2,1,0};
   int i = 0;
-  for(i = 0; i < count ; i++)
+  int len = sizeof(arr) / sizeof(arr[0]);
+  for(i = 0; i < len - 1; i++ )
   {
-    temp = temp2 % 10;
-    temp2 = temp2 / 10;
-    printf("%d",temp);
+    int j = 0;
+    for(j = 0; j < len - 1 - i; j++ )
+    {
+      if(arr[j+1] < arr[j])
+      {
+        int temp = arr[j+1];
+        arr[j+1] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  for(i = 0; i < len ; i++)
+  {
+    printf("%d ",arr[i]);
   }
   return 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
