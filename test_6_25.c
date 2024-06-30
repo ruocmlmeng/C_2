@@ -124,6 +124,30 @@
 /**
   ц╟ещеепР
 **/
+// int main()
+// {
+//   int arr[10] = {9,8,7,6,5,4,3,2,1,0};
+//   int i = 0;
+//   int len = sizeof(arr) / sizeof(arr[0]);
+//   for(i = 0; i < len - 1; i++ )
+//   {
+//     int j = 0;
+//     for(j = 0; j < len - 1 - i; j++ )
+//     {
+//       if(arr[j+1] < arr[j])
+//       {
+//         int temp = arr[j+1];
+//         arr[j+1] = arr[j];
+//         arr[j] = temp;
+//       }
+//     }
+//   }
+//   for(i = 0; i < len ; i++)
+//   {
+//     printf("%d ",arr[i]);
+//   }
+//   return 0;
+// }
 int main()
 {
   int arr[10] = {9,8,7,6,5,4,3,2,1,0};
@@ -148,7 +172,6 @@ int main()
   }
   return 0;
 }
-
 
 
 
